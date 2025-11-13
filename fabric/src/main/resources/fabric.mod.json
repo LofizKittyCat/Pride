@@ -1,0 +1,38 @@
+
+{
+  "schemaVersion": 1,
+  "id": "pride",
+  "version": "${version}",
+  "name": "Pride",
+  "description": "",
+  "authors": [
+    "iLofiz"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/pride/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lofiz.pride.fabric.PrideFabric"
+    ],
+    "client": [
+      "dev.lofiz.pride.fabric.client.PrideFabricClient"
+    ]
+  },
+  "mixins": [
+    "pride.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "architectury": ">=18.0.6",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
