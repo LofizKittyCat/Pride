@@ -27,10 +27,6 @@ public final class Blocks {
     private static final DeferredRegister<Item> BLOCK_ITEMS =
             DeferredRegister.create(Pride.MOD_ID, Registries.ITEM);
 
-    //public static final Map<Block, BlockItemData> blockItemMap = new HashMap<>();
-
-    //public static RegistrySupplier<Block> TEST_BLOCK;
-
     public static RegistrySupplier<Block> DEFAULT_FLAG;
     public static RegistrySupplier<Item> DEFAULT_FLAG_ITEM;
 
@@ -49,9 +45,7 @@ public final class Blocks {
     public static void init() {
         Pride.logger.info("Initializing Blocks Class!");
 
-        //TEST_BLOCK = register("test_block", () -> new Block(baseProps("test_block")));
-
-        DEFAULT_FLAG = register("default_flag", () -> new Block(baseProps("default_flag").sound(SoundType.ANVIL).strength(0.2f)));
+        DEFAULT_FLAG = register("default_flag", () -> new StandingFlagBlock(baseProps("default_flag").sound(SoundType.WOOL).strength(0.2f).noOcclusion()));
         DEFAULT_FLAG_ITEM = registerItem("default_flag", () -> new BlockItem(DEFAULT_FLAG.get(), Items.baseProps("default_flag")));
 
         BLOCKS.register();
