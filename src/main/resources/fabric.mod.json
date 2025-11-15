@@ -19,7 +19,7 @@
           "dev.lofiz.pride.Pride"
 		],
 		"fabric-datagen": [
-          "dev.lofiz.pride.data.PrideDataGenerator"
+          "dev.lofiz.pride.datagen.PrideDataGenerator"
 		]
 	},
 	"mixins": [
