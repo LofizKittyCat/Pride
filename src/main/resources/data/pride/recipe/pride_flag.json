@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": "pride:flag_pole",
+    "r": "minecraft:red_wool",
+    "o": "minecraft:orange_wool",
+    "y": "minecraft:yellow_wool"
+  },
+  "pattern": [
+    "roy",
+    "  #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pride:pride_flag"
+  }
+}

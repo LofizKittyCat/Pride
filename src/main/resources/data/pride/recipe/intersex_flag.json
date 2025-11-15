@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": "pride:flag_pole",
+    "y": "minecraft:yellow_wool",
+    "m": "minecraft:magenta_wool"
+  },
+  "pattern": [
+    "ymy",
+    "  #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pride:intersex_flag"
+  }
+}

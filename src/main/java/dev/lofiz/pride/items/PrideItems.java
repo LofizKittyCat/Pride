@@ -21,6 +21,8 @@ public class PrideItems {
         return item;
     }
 
+    public static Item FLAG_POLE = register("flag_pole", Item::new, new Item.Settings());
+
     public static void init() {
         Pride.logger.info("Initializing Items");
     }

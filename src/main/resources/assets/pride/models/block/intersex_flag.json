@@ -1,0 +1,9 @@
+{
+  "parent": "pride:block/default_flag",
+  "textures": {
+    "0": "pride:block/flag_texture_intersex",
+    "1": "pride:block/pole_texture",
+    "3": "pride:block/base",
+    "particle": "pride:block/flag_texture_intersex"
+  }
+}

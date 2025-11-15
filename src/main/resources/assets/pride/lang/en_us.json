@@ -1,9 +1,12 @@
 {
-  "block.pride.test_block": "Test Block",
-  "block.pride.default_flag": "Default Flag",
   "block.pride.pride_flag": "Pride Flag",
+  "block.pride.gay_flag": "Gay Flag",
+  "block.pride.lesbian_flag": "Lesbian Flag",
   "block.pride.bisexual_flag": "Bisexual Flag",
   "block.pride.transgender_flag": "Transgender Flag",
+  "block.pride.queer_flag": "Queer Flag",
+
+  "item.pride.flag_pole": "Flag Pole",
 
   "itemGroup.pride": "Pride"
 }

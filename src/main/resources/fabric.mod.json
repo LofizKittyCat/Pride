@@ -12,7 +12,7 @@
 		"sources": "https://github.com/LofizKittyCat/Pride"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/pride/pride-logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

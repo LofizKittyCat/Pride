@@ -1,6 +1,5 @@
 package dev.lofiz.pride.blocks;
 
-import com.google.common.collect.Lists;
 import dev.lofiz.pride.Pride;
 import dev.lofiz.pride.blocks.flag.StandingFlagBlock;
 import dev.lofiz.pride.util.KeyUtil;
@@ -13,7 +12,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 
-import java.util.Arrays;
 import java.util.function.Function;
 
 public class PrideBlocks {
@@ -29,18 +27,23 @@ public class PrideBlocks {
         return Registry.register(Registries.BLOCK, blockKey, block);
     }
 
-    public static final Block TEST_BLOCK = register("test_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK));
-
-    public static final Block DEFAULT_FLAG = register("default_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque());
-    public static final Block PRIDE_FLAG = register("pride_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque());
-    public static final Block BISEXUAL_FLAG = register("bisexual_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque());
-    public static final Block TRANSGENDER_FLAG = register("transgender_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque());
+    public static final Block PRIDE_FLAG = register("pride_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block GAY_FLAG = register("gay_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block LESBIAN_FLAG = register("lesbian_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block BISEXUAL_FLAG = register("bisexual_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block TRANSGENDER_FLAG = register("transgender_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block QUEER_FLAG = register("queer_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
+    public static final Block INTERSEX_FLAG = register("intersex_flag", StandingFlagBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).strength(0.2f).nonOpaque().noCollision());
 
     public static final Block[] FLAG_BLOCKS = {
-            DEFAULT_FLAG,
             PRIDE_FLAG,
+
+            LESBIAN_FLAG,
+            GAY_FLAG,
             BISEXUAL_FLAG,
-            TRANSGENDER_FLAG
+            TRANSGENDER_FLAG,
+            QUEER_FLAG,
+            INTERSEX_FLAG
     };
 
     public static void init() {
