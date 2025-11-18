@@ -1,12 +1,21 @@
 {
   "block.pride.pride_flag": "Pride Flag",
+  "block.pride.progress_pride_flag": "Progress Pride Flag",
   "block.pride.gay_flag": "Gay Flag",
   "block.pride.lesbian_flag": "Lesbian Flag",
   "block.pride.bisexual_flag": "Bisexual Flag",
   "block.pride.transgender_flag": "Transgender Flag",
   "block.pride.queer_flag": "Queer Flag",
+  "block.pride.intersex_flag": "Intersex Flag",
+  "block.pride.asexual_flag": "Asexual Flag",
 
   "item.pride.flag_pole": "Flag Pole",
+
+  "tooltip.pride.pride_flag": "Created in 1978 by activist Gilbert Baker, flown for the first time in June 25, 1978 during San Francisco's Gay Freedom Day parade.",
+  "tooltip.pride.progress_pride_flag": "The Progress Pride Flag was created in 2018 by non-binary American artist & designer Daniel Quasar, it was created to celebrate the diversity of the LGBTQ community.",
+  "tooltip.pride.gay_flag": "Created in October 9, 2018 published online on VK- a Russian website, the design emerged after the rainbow flag.",
+  "tooltip.pride.lesbian_flag": "The Lesbian flag (commonly known as the Sunset Lesbian Flag) was created in 2018 by Emily Gwen, it was created as a response to earlier lesbian pride flags that were perceived as exclusionary, particularly the 2010 Lipstick Lesbian Flag",
+  "tooltip.pride.bisexual_flag": "Created in 1998 by Michael Page aka 'BiMagical', it was officially unveiled on December 5th, 1998",
 
   "itemGroup.pride": "Pride"
 }

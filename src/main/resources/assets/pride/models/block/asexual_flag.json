@@ -1,0 +1,13 @@
+{
+  "parent": "pride:block/default_flag",
+  "textures": {
+    "0": "pride:block/flag/asexual/flag_texture_asexual",
+    "1": "pride:block/flag/pole/pole_texture",
+    "3": "pride:block/flag/base/base",
+    "4": "pride:block/flag/asexual/flag_texture_asexual_top",
+    "5": "pride:block/flag/asexual/flag_texture_asexual_bottom",
+    "6": "pride:block/flag/asexual/flag_texture_asexual",
+    "7": "pride:block/flag/asexual/flag_texture_asexual",
+    "particle": "pride:block/flag/asexual/flag_texture_asexual"
+  }
+}

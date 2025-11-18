@@ -2,10 +2,14 @@
   "format_version": "1.21.6",
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "pride:block/flag_texture_default",
-    "1": "pride:block/pole_texture",
-    "3": "pride:block/base",
-    "particle": "pride:block/flag_texture_default"
+    "0": "pride:block/flag/default/flag_texture_default",
+    "1": "pride:block/flag/pole/pole_texture",
+    "3": "pride:block/flag/base/base",
+    "4": "pride:block/flag/default/flag_texture_default",
+    "5": "pride:block/flag/default/flag_texture_default",
+    "6": "pride:block/flag/default/flag_texture_default",
+    "7": "pride:block/flag/default/flag_texture_default",
+    "particle": "pride:block/flag/default/flag_texture_default"
   },
   "elements": [
     {
@@ -42,12 +46,12 @@
       "to": [9.25, 31.5, 9.25],
       "rotation": {"angle": 0, "axis": "y", "origin": [8, 11.5, 2.5625]},
       "faces": {
-        "north": {"uv": [0.25, 0.25, 3.75, 15.75], "texture": "#0"},
+        "north": {"uv": [0.25, 0.25, 3.75, 15.75], "texture": "#7"},
         "east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-        "south": {"uv": [0.25, 0, 4, 16], "texture": "#0"},
+        "south": {"uv": [0.25, 0, 4, 16], "texture": "#6"},
         "west": {"uv": [0, 0.25, 16, 15.75], "texture": "#0"},
-        "up": {"uv": [0.25, 0.25, 4, 16], "texture": "#0"},
-        "down": {"uv": [0, 0, 3.75, 16], "texture": "#0"}
+        "up": {"uv": [0.25, 0.25, 4, 16], "texture": "#4"},
+        "down": {"uv": [0, 0, 3.75, 16], "texture": "#5"}
       }
     }
   ],

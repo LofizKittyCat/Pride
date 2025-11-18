@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": "pride:flag_pole",
+    "r": "minecraft:red_wool",
+    "p": "minecraft:pink_wool",
+    "b": "minecraft:light_blue_wool"
+  },
+  "pattern": [
+    "rpb",
+    "  #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pride:progress_pride_flag"
+  }
+}

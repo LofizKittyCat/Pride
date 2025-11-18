@@ -1,9 +1,13 @@
 {
   "parent": "pride:block/default_flag",
   "textures": {
-    "0": "pride:block/flag_texture_bisexual",
-    "1": "pride:block/pole_texture",
-    "3": "pride:block/base",
-    "particle": "pride:block/flag_texture_bisexual"
+    "0": "pride:block/flag/bisexual/flag_texture_bisexual",
+    "1": "pride:block/flag/pole/pole_texture",
+    "3": "pride:block/flag/base/base",
+    "4": "pride:block/flag/bisexual/flag_texture_bisexual_top",
+    "5": "pride:block/flag/bisexual/flag_texture_bisexual_bottom",
+    "6": "pride:block/flag/bisexual/flag_texture_bisexual",
+    "7": "pride:block/flag/bisexual/flag_texture_bisexual",
+    "particle": "pride:block/flag/bisexual/flag_texture_bisexual"
   }
 }
